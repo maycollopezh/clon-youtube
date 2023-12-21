@@ -1,4 +1,104 @@
 body {
     font-family: 'Lobster', sans-serif;
     font-family: 'Roboto', sans-serif;
+    margin-right: 0;
 }
+
+#youtube-logo {
+    width: 130px;
+}
+
+#mi-icono-del-canal{
+    width: 40px;
+    border-radius: 50%;
+}
+
+.barra-busqueda {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.canal-icono {
+    width: 40px;
+    margin-right: 13px; 
+}
+
+.sección-videos {
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-evenly;
+    
+    position: relative;
+    top: -115px;
+    padding-left: 15%; 
+}
+
+.barra-de-navegación {
+    width: 100px;
+    
+    height: 100px;
+    position: relative;
+    top: -60px;
+}
+
+.sección-inferior-video {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 1rem;
+}
+
+.detalles-video {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido-imagen {
+    display: flex;
+    width: 345px;
+    margin-top: 25px;
+}
+
+.video-titulo {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+.nombre-canal {
+    margin-bottom: 2px;
+    text-decoration: none;
+    color: #555;
+}
+
+.datos-del-video {
+    color: #555;
+}
+
+.sección-categorias {
+    padding: 16px 32px;
+   
+    display: flex;
+    overflow: hidden;
+
+}
+
+.categorias {
+    border-radius: 8px;
+    border: solid 2px white;
+    margin-right: 16px;
+    font-size: 15px;
+    padding: 9px;
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+    
+}
+button.categorias {
+    cursor: pointer;
+}
+
