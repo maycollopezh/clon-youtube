@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Youtube </title>
+    <title> YouTube </title>
     <link rel="icon" href="./img/youtube-logo.ico">
     <link rel="stylesheet" href="./clon-youtube.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,7 +21,7 @@
             </a>
             
             <form action="#" class="busqueda">
-                <input type="search" class="entrada-busqueda" placeholder="Buscar" aria-label="search">
+                <input type="search" class="entrada-busqueda" placeholder="Buscar">
                 <button type="submit" class="boton-busqueda">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
@@ -29,8 +29,8 @@
 
             <section class="iconos-menu">
                 
-                <a href="#">
-                    <i class="fa-solid fa-microphone" style="color: #000000;"></i>
+                <a id="boton-microfono" href="#">
+                    <i class="fa-solid fa-microphone" style="color: #000000;" ></i>
                 </a>
 
                 <a href="#">
@@ -72,11 +72,66 @@
 
 <section class="barra-de-navegación">
 
-    <nav>
-
-        <i class="fa-solid fa-house" style="color: #000000;"></i> <span>Inicio</span>
+    <nav class="navegación"> 
         
+            <a class="navegación-nombre" href="#">
+                <i class="fa-solid fa-house" style="color: #000000;"></i> <span class="nombre" >Inicio</span>
+            </a>
+            <a class="navegación-nombre" href="#">
+                <img  id="icono-navegacion-shorts" src="./img/icons8-youtube-shorts-24.ico" alt="" width="23px"> <span class="nombre" >Shorts</span>
+            </a>
+            <a class="navegación-nombre" href="#">
+                <img  class="icono-navegacion"  src="./img/suscripcion.ico" alt=""> <span class="nombre" >Suscripciones</span>
+            </a>
+            <a class="navegación-nombre" href="#">
+                <img id="icono-youtube-music" class="icono-navegacion" src="./img/icons8-youtube-music-50.ico" alt=""><span class="nombre" >YouTube Music</span>
+            </a>
+    </nav>
 
+    <nav class="navegación"> 
+        
+        <a class="navegación-nombre" href="#">
+            <span id="navegacion-tu" >Tú </span>
+        </a>
+        <a  id="navegacion-icono" class="navegación-nombre" href="#">
+            <i class="fa-solid fa-user" style="color: #000000;"></i> <span class="nombre" >Tu canal</span>
+        </a>
+        <a class="navegación-nombre" href="#">
+            <i class="fa-solid fa-clock-rotate-left" style="color: #000000;"></i> <span class="nombre" >Historial</span>
+        </a>
+        <a class="navegación-nombre" href="#">
+            <i class="fa-brands fa-youtube" style="color: #000000;"></i> <span id="mis-videos" class="nombre" >Mis vídeos</span>
+        </a>
+        <a class="navegación-nombre" href="#">
+            <i class="fa-regular fa-clock" style="color: #000000;"></i> <span class="nombre" >Ver más tarde</span>
+        </a>
+    </nav>
+
+    <nav class="navegación"> 
+        <a class="navegación-nombre" href="#">
+            <span id="navegacion-explorar" >Explorar</span>
+        </a>
+        <a  id="navegacion-icono" class="navegación-nombre" href="#">
+            <i class="fa-solid fa-fire-flame-curved" style="color: #000000;"></i> <span id="tendencias" class="nombre" >Tendencias</span>
+        </a>
+        <a class="navegación-nombre" href="#">
+            <i class="fa-solid fa-music" style="color: #000000;"></i> <span class="nombre" >Música</span>
+        </a>
+        <a class="navegación-nombre" href="#">
+            <i class="fa-solid fa-satellite-dish" style="color: #000000;"></i> <span class="nombre" >En directo</span>
+        </a>
+        <a class="navegación-nombre" href="#">
+            <i class="fa-solid fa-gamepad" style="color: #000000;"></i> <span id="videojuegos" class="nombre" >Videojuegos</span>
+        </a>
+        <a class="navegación-nombre" href="#">
+            <i class="fa-solid fa-newspaper" style="color: #000000;"></i> <span class="nombre" >Noticias</span>
+        </a>
+        <a class="navegación-nombre" href="#">
+            <i class="fa-solid fa-volleyball" style="color: #000000;"></i><span class="nombre" >Deportes</span>
+        </a>
+        <a class="navegación-nombre" href="#">
+            <i class="fa-solid fa-book" style="color: #000000;"></i><span class="nombre" >Aprendizaje</span>
+        </a>
     </nav>
 
 </section>
@@ -95,7 +150,7 @@
 
                 <div class="detalles-video">
 
-                    <a href="#" class="video-titulo">Titulo del video</a>
+                    <a href="#" class="video-titulo">¿Qué es Programar y para qué sirve?</a>
                     <a href="#" class="nombre-canal">Maycol Lopez</a>
 
 
@@ -122,7 +177,7 @@
 
                 <div class="detalles-video">
 
-                    <a href="#" class="video-titulo">Titulo del video</a>
+                    <a href="#" class="video-titulo">¿Qué es Programar y para qué sirve?</a>
                     <a href="#" class="nombre-canal">Maycol Lopez</a>
 
 
@@ -148,7 +203,7 @@
                 </a>
                 <div class="detalles-video">
 
-                    <a href="#" class="video-titulo">Titulo del video</a>
+                    <a href="#" class="video-titulo">¿Qué es Programar y para qué sirve?</a>
                     <a href="#" class="nombre-canal">Maycol Lopez</a>
 
 
@@ -175,7 +230,7 @@
 
                 <div class="detalles-video">
 
-                    <a href="#" class="video-titulo">Titulo del video</a>
+                    <a href="#" class="video-titulo">¿Qué es Programar y para qué sirve?</a>
                     <a href="#" class="nombre-canal">Maycol Lopez</a>
 
 
@@ -202,7 +257,7 @@
 
                 <div class="detalles-video">
 
-                    <a href="#" class="video-titulo">Titulo del video</a>
+                    <a href="#" class="video-titulo">¿Qué es Programar y para qué sirve?</a>
                     <a href="#" class="nombre-canal">Maycol Lopez</a>
 
 
@@ -229,7 +284,7 @@
 
                 <div class="detalles-video">
 
-                    <a href="#" class="video-titulo">Titulo del video</a>
+                    <a href="#" class="video-titulo">¿Qué es Programar y para qué sirve?</a>
                     <a href="#" class="nombre-canal">Maycol Lopez</a>
 
                     <div class="datos-del-video">
@@ -243,7 +298,85 @@
             </div>
 
         </article>
+        <article class="contenedor-videos">
+            <a href="#">
+                <img class="contenido-imagen" src="https://th.bing.com/th/id/R.a60218edb891ff7d1836b9169ae397d2?rik=R199KQdahNDlCg&pid=ImgRaw&r=0" alt="">
+            </a>
+            <div class="sección-inferior-video">
+                <a href="#" >
+                    <img class="canal-icono" src="https://baghdad.eregulations.org/media/Document%20office%20staff_2.jpg" alt="icono del canal">
+                </a>
 
+                <div class="detalles-video">
+
+                    <a href="#" class="video-titulo">¿Qué es Programar y para qué sirve?</a>
+                    <a href="#" class="nombre-canal">Maycol Lopez</a>
+
+
+                    <div class="datos-del-video">
+                        <span>1,5M de visualizaciones</span>
+                        •­
+                        <span>Hace 4 dias</span>
+
+                    </div>
+    
+                </div>
+            </div>
+
+        </article>
+
+        <article class="contenedor-videos">
+            <a href="#">
+                <img class="contenido-imagen" src="https://th.bing.com/th/id/R.a60218edb891ff7d1836b9169ae397d2?rik=R199KQdahNDlCg&pid=ImgRaw&r=0" alt="">
+            </a>
+            <div class="sección-inferior-video">
+                <a href="#" >
+                    <img class="canal-icono" src="https://baghdad.eregulations.org/media/Document%20office%20staff_2.jpg" alt="icono del canal">
+                </a>
+
+                <div class="detalles-video">
+
+                    <a href="#" class="video-titulo">¿Qué es Programar y para qué sirve?</a>
+                    <a href="#" class="nombre-canal">Maycol Lopez</a>
+
+
+                    <div class="datos-del-video">
+                        <span>1,5M de visualizaciones</span>
+                        •­
+                        <span>Hace 4 dias</span>
+
+                    </div>
+    
+                </div>
+            </div>
+
+        </article>
+
+        <article class="contenedor-videos">
+            <a href="#">
+                <img class="contenido-imagen" src="https://th.bing.com/th/id/R.a60218edb891ff7d1836b9169ae397d2?rik=R199KQdahNDlCg&pid=ImgRaw&r=0" alt="">
+            </a>
+            <div class="sección-inferior-video">
+                <a href="#" >
+                    <img class="canal-icono" src="https://baghdad.eregulations.org/media/Document%20office%20staff_2.jpg" alt="icono del canal">
+                </a>
+                <div class="detalles-video">
+
+                    <a href="#" class="video-titulo">¿Qué es Programar y para qué sirve?</a>
+                    <a href="#" class="nombre-canal">Maycol Lopez</a>
+
+
+                    <div class="datos-del-video">
+                        <span>1,5M de visualizaciones</span>
+                        •­
+                        <span>Hace 4 dias</span>
+
+                    </div>
+    
+                </div>
+            </div>
+
+        </article>
     </section>
 
 </main>

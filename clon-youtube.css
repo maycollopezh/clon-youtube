@@ -2,10 +2,12 @@ body {
     font-family: 'Lobster', sans-serif;
     font-family: 'Roboto', sans-serif;
     margin-right: 0;
+    margin-left: 25px;
 }
 
 #youtube-logo {
     width: 130px;
+    padding-right: 32px;
 }
 
 #mi-icono-del-canal{
@@ -16,9 +18,31 @@ body {
 .barra-busqueda {
     display: flex;
     justify-content: space-between;
+    
 }
 
+.entrada-busqueda {
+    width: 650px;
+    height: 35px;
+}
 
+.boton-busqueda {
+    height: 35px;
+}
+
+.iconos-menu {
+    display: flex;
+    justify-content: end;
+    padding-right: 30px;
+    gap: 20px;
+    align-items: center;
+
+}
+
+#boton-microfono {
+    position: relative;
+    right: 160px;
+}
 
 .canal-icono {
     width: 40px;
@@ -32,16 +56,72 @@ body {
     justify-content: space-evenly;
     
     position: relative;
-    top: -115px;
+    top: -755px;
     padding-left: 15%; 
 }
 
 .barra-de-navegación {
-    width: 100px;
-    
-    height: 100px;
+    z-index: 1;
     position: relative;
-    top: -60px;
+    top: -75px;
+    
+    width: 200px;
+}
+
+.navegación {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: solid rgb(199, 199, 199) 1px;
+    gap: 20px;
+
+}
+
+.navegación-nombre {
+    text-decoration: none;
+    
+}
+
+.nombre {
+    margin-left: 25px;
+    color: #222;
+}
+
+#navegacion-tu {
+    color: black;  
+    font-weight: bold;  
+}
+
+#navegacion-explorar {
+    color: black;  
+    font-weight: bold; 
+}
+
+.icono-navegacion {
+    margin-left: -3px;
+    width: 18px;
+}
+
+#icono-navegacion-shorts{
+    margin-left: -3px;
+    width: 20px;
+}
+
+#icono-youtube-music {
+    width: 20px;
+}
+
+#videojuegos {
+    margin: 19px;
+}
+
+#tendencias {
+    margin-left: 27px;
+}
+
+#mis-videos {
+    margin-left: 23px;
 }
 
 .sección-inferior-video {
@@ -96,8 +176,9 @@ body {
     font-weight: bold;
     display: flex;
     justify-content: end;
-    
+    padding-top: 0;
 }
+
 button.categorias {
     cursor: pointer;
 }
