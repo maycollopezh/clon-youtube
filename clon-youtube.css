@@ -16,8 +16,7 @@ body {
 
 .barra-busqueda {
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between; 
 }
 
 .entrada-busqueda {
@@ -35,7 +34,6 @@ body {
     padding-right: 30px;
     gap: 20px;
     align-items: center;
-
 }
 
 #boton-microfono {
@@ -51,9 +49,7 @@ body {
 .sección-videos {
     display: flex;
     flex-wrap: wrap;
-    
     justify-content: space-evenly;
-    
     position: relative;
     top: -755px;
     padding-left: 15%; 
@@ -63,7 +59,6 @@ body {
     z-index: 1;
     position: relative;
     top: -75px;
-    
     width: 200px;
 }
 
@@ -74,12 +69,10 @@ body {
     padding-top: 20px;
     border-bottom: solid rgb(199, 199, 199) 1px;
     gap: 20px;
-
 }
 
 .navegación-nombre {
     text-decoration: none;
-    
 }
 
 .nombre {
@@ -160,10 +153,8 @@ body {
 
 .sección-categorias {
     padding: 16px 32px;
-   
     display: flex;
     overflow: hidden;
-
 }
 
 .categorias {
